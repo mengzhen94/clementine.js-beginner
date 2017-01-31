@@ -61,6 +61,4 @@ module.exports = function clickHandler(db){
 			}
 		);
 	};
-
-
 }
