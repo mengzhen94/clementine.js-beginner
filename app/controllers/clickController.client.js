@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*
 immediately invoked function express (IIFE)
@@ -107,7 +107,7 @@ other variables within the application that may share the same name or need to b
 	deleteButton.addEventListener('click', function(){
 		ajaxRequest('DELETE', apiUrl, function(){
 			ajaxRequest('GET', apiUrl, updateClickCount);
-		})；
+		});
 	}, false);
 
 })();
